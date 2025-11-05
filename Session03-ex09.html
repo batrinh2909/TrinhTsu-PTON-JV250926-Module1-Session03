@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tìm Kiếm Sản Phẩm</h1>
+
+    <form action="search" method="GET">
+      <label for="keyword">Từ khóa tìm kiếm:</label>
+      <input type="text" id="keyword" name="keyword" placeholder="" /><br />
+
+      <label for="category">Loại sản phẩm:</label>
+      <select id="category" name="category">
+        <option value="electronics" selected>Điện tử</option>
+        <option value="fashion">Thời trang</option>
+        <option value="books">Sách</option>
+        <option value="home_appliances">Gia dụng</option>
+      </select>
+
+      <br />
+      <button type="submit">Tìm kiếm</button>
+    </form>
+  </body>
+</html>
